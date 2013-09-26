@@ -1,4 +1,4 @@
 sans-cube
 =========
 
-Sans-cube website
+Static files being served in sans-cube.com
