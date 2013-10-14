@@ -278,7 +278,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    
+
 }
 
 
@@ -312,4 +312,22 @@ img, h1 {
   -ms-transition: all 1s linear;
   -o-transition: all 1s linear;
   transition: all 1s linear;
+}
+
+
+/* Being mean to pracrastinators */
+* {
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+img{
+  -webkit-user-drag: auto | element | none;
+  user-drag: auto | element | none;
+  -moz-user-select none | text | all | element
+  -ms-user-select none | text | all | element
 }
